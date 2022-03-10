@@ -1,0 +1,63 @@
+body {
+padding:0;margin:0 auto;
+    background: linear-gradient(#fff, #fff);
+	min-width: 300px;
+}
+#logo{
+height:80px;
+margin:10px;
+}
+#box{
+	width:98%;
+	max-width:650px;
+	height:110px;	
+	background-color:#ECEFF1;
+	border-radius:6px;
+	padding:20px 0 0 0;
+	margin:10px auto;
+
+
+}
+
+
+/**------------USER------------**/
+#user{
+position:relative;
+left:-23px;
+border:1px #ccc solid;color:#6D6D6D;background:#fff;opacity: 1;
+height:40px;font-size:16px;
+display:block;width:230px;
+text-align:center;border-radius:5px;
+font-family:inherit
+}
+/**--------------------PASSWORD----------**/
+#pass{
+position:relative;
+left:-23px;
+border:1px #ccc solid;color:#6D6D6D;background:#fff;opacity: 1;height:40px;font-size:16px;
+display:block;margin:5px;width:230px;text-align:center;border-radius:5px;color:#fff;font-family:inherit
+}
+/*---------------Boton---------*/
+#boton{
+position:relative;
+left:128px;top:-97px;
+	-webkit-appearance:none;color:#fff;
+	background:#4285F4; background-image:url(lock.png);
+	background-repeat: no-repeat; background-position:center; opacity: 1;
+    border:none;border-radius:5px;height:92px;width:42px;font-size:16px;font-weight:400;outline:0;text-transform:uppercase;
+    letter-spacing:1.5px;cursor:pointer
+    }
+#boton:hover{
+	background-color:#F0C20E;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease
+	}
+    .vertical-form .footer{
+        position: relative;
+        top:-0px;
+        text-align:center;
+color:#ccc;}
+.vertical-form .footer a{text-decoration:none;color:#4285F4;}
+    @media (max-width:450px){
+#logo{
+height:70px;
+}
+       }
